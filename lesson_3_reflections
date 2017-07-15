@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  It is necessary when you want to share the code with other people and enable them to collaborate and propose changes to your code,
+  or jointly work on a project with a group of people.
+  The repository could be public or private, depending on the situation. Keeping the files on the cloud is also safer than keeping it only local.
