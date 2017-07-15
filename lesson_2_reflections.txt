@@ -1,3 +1,33 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	A hidden folder named .git is created. This folder contains metadata about the repository. It is needed to be able to create commits and operate git functionality on the project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is an testing step before the acutal commit. The user can try adding or removing different files before including them in the repository. It is useful to have a better control on what to add to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	In the staging area it is possible to decide which changes to commit, and which to leaave out for another commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you try new things, but still would like to keep the default version separate. Branches can be developed separately without conflicting with each other.
+
+How do the diagrams help you visualize the branch structure?
+
+	It helps keep track of the commits and branches chronologically, as well as pay attention to commits detached from any current branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	A new commit is created that has as parents the latest commits from the merged branches. In the diagram the new commit is connected with one arraw with each of the latest commits from the merged branches. This new commit has thus two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merge:
+		Pros - Quick and the user doesn't have to worry about it
+		Cons - High risk of making a mess of the code in case there are conflicts during the merge.
+
+	Manual merge:
+		Pros - Gives the users the responsibility to correctlly resolve conflicts. Users know what they are doing and conflicts can be resolved correctly.
+		Cons - It requires the user's attention and can be time consuming.
